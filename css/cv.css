@@ -1,36 +1,44 @@
 #logo{
-    background-color:#dcb11b;
+
+    background-color:#805a5c;
+}
+
+
+#portrait{
+
+    background-color:#805a5c;
 
 }
 
 #blocillus{
-    background-color:#989090;
+
 }
 #bloc{
-    background-color:#dcb11b;
+    background-color:#805a5c;
 }
 
 #blocfin{
 
-    border  : 2px solid black;
-
+    border-top: 25px solid #333a41;
 
 }
 
-#corps{
+#dessin{
+    background-color:#805a5c;
 
-    background-color:#989090;
 }
 
 #formations{
-    background-color:#989090;
+
+    background-color:#afafaf;
 }
 
 
 #competences{
+    background-color:#afafaf;
 
+    text-align:center;
 
-    background-color:#989090;
 
 }
 
@@ -42,13 +50,15 @@
 #interets{
 
 
-    background-color:#989090;
+    background-color:#805a5c;
+
 
 }
 
 #exp{
 
-    background-color:#989090;
+
+    background-color:#805a5c;
 
 
 }
@@ -70,4 +80,22 @@
 #titreillustration{
     background-color:#dcb11b;
 
+}
+#corps{
+    background-color:#afafaf;
+
+}
+
+
+.liens /* Liens par défaut (non survolés) */
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.liens.hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+    color: white;
 }
